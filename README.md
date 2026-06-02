@@ -61,13 +61,11 @@ drwxr-xr-x  dsi-systems/    # Field Sales Representative   | May 2018 – Jul 20
 └─$ cat about.md
 ```
 
-```
 I didn't take the traditional path into tech. I spent years in field sales before making the switch, and honestly, that background makes me better at this job — I know how to communicate, how to work with people, and how to get things done across teams.
 
 These days I'm managing network infrastructure at Synchronet — LAN/WAN, firewalls, VPNs, Active Directory, the works — while finishing up my degree in Cyber Security at SUNY Canton. I'm still early in my career on the technical side, but I learn fast and I build as I go.
 
 The repos here are a reflection of that. Nothing polished for show — just the stuff I'm actually working on, figuring out, and getting better at.
-```
 
 ---
 
