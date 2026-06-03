@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-# Zachary Lalime
+# Zach Lalime
 
 ### Network Administrator · Buffalo, NY · Cybersecurity Student
 
