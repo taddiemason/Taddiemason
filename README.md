@@ -14,11 +14,11 @@
 ```txt
 Before IT, I was in field sales for four years. Knocking on doors,
 reading rooms, explaining things fast to people who had better things
-to do. Not exactly a tech origin story — but it made me better at this
+to do. Not exactly a tech origin story, but it made me better at this
 job than I expected.
 
 I'm a network administrator at SynchroNet in Buffalo. I work on real
-infrastructure with real stakes — Active Directory, M365, network
+infrastructure with real stakes, Active Directory, M365, network
 security, keeping things running for people who depend on them.
 
 On the side: B.S. in Cybersecurity (in progress), a homelab that keeps
