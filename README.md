@@ -12,37 +12,33 @@
 ```
 
 ```txt
-I didn't grow up in a server room.
+Before IT, I was in field sales for four years. Knocking on doors,
+reading rooms, explaining things fast to people who had better things
+to do. Not exactly a tech origin story — but it made me better at this
+job than I expected.
 
-I spent four years in field sales — knocking on doors, reading people
-fast, and figuring out how to explain complicated things to people who
-didn't want to hear it.
+I'm a network administrator at SynchroNet in Buffalo. I work on real
+infrastructure with real stakes — Active Directory, M365, network
+security, keeping things running for people who depend on them.
 
-Turns out that's a weirdly useful skill set for IT.
-
-Now I'm a network administrator at SynchroNet in Buffalo, building the
-thing I should've started building years ago. I work on real infrastructure,
-real problems, and try to leave every system better than I found it.
-
-Currently: finishing a B.S. in Cybersecurity, running a homelab that's
-slowly taking over my home office, and writing PowerShell that I actually
-want to run again later.
+On the side: B.S. in Cybersecurity (in progress), a homelab that keeps
+growing, and PowerShell scripts I'm actually proud of.
 ```
 
 ---
 
 ```zsh
-└─$ cat what_i_work_on.txt
+└─$ cat highlights.txt
 ```
 
 ```txt
-Day-to-day: Active Directory, Microsoft 365, Entra, network
-troubleshooting, keeping business-critical systems from becoming
-someone else's problem.
+Network Administrator @ SynchroNet (Jul 2025 – Present)
+  ├─ Manage AD, M365, and Entra environments across the org
+  ├─ Network troubleshooting, VPN, DHCP/DNS, firewall administration
+  └─ Supporting infrastructure for Buffalo-area businesses
 
-The stuff I actually think about at night: network security,
-automation, and building infrastructure that doesn't need
-constant babysitting.
+IT Technician @ Vitec (Nov 2023 – Jun 2024)
+  └─ Tier 2/3 support, patch management, on-site troubleshooting
 ```
 
 ---
@@ -51,15 +47,12 @@ constant babysitting.
 └─$ ls ./projects/
 ```
 
-```txt
-homelab/            # Proxmox, VLANs, Linux servers, self-hosted services
-
-powershell-audits/  # Read-only AD, M365, and security audit scripts
-
-cloudflare-sites/   # Personal sites and Cloudflare Worker experiments
-
-network-docs/       # Notes, diagrams, and writeups from real troubleshooting
-```
+| Project | Description |
+|---|---|
+| `homelab/` | Proxmox, VLANs, Linux servers, self-hosted services |
+| `powershell-audits/` | Read-only AD, M365, and security audit scripts |
+| `cloudflare-sites/` | Personal sites and Cloudflare Worker experiments |
+| `network-docs/` | Troubleshooting notes and infrastructure writeups |
 
 ---
 
@@ -105,5 +98,3 @@ echo "LinkedIn:" https://www.linkedin.com/in/zachary-lalime
 ```zsh
 └─$ █
 ```
-
-
