@@ -8,70 +8,41 @@
 
 ```zsh
 ┌──(zachary@zachbox)-[~]
-└─$ cat whoami.txt
+└─$ cat about.txt
 ```
 
 ```txt
-Name        :: Zachary Lalime
-Role        :: Network Administrator @ SynchroNet — Buffalo, NY
-Education   :: A.A.S. Information Technology | B.S. Cybersecurity in progress
-Certs       :: SUNY Network Support Technology Certificate
-Focus       :: Network Security · Infrastructure · Systems Administration
-Status      :: Building, learning, troubleshooting, and improving every day
+I didn't grow up in a server room.
+
+I spent four years in field sales — knocking on doors, reading people
+fast, and figuring out how to explain complicated things to people who
+didn't want to hear it.
+
+Turns out that's a weirdly useful skill set for IT.
+
+Now I'm a network administrator at SynchroNet in Buffalo, building the
+thing I should've started building years ago. I work on real infrastructure,
+real problems, and try to leave every system better than I found it.
+
+Currently: finishing a B.S. in Cybersecurity, running a homelab that's
+slowly taking over my home office, and writing PowerShell that I actually
+want to run again later.
 ```
 
 ---
 
 ```zsh
-└─$ cat focus.md
-```
-
-I work in IT infrastructure with a focus on networking, systems administration, and security.
-My day-to-day work includes supporting real environments, troubleshooting user and network issues, working with Active Directory and Microsoft 365, and helping maintain business-critical systems.
-
-I did not take the traditional path into tech. Before moving into IT, I spent years in field sales, which taught me how to communicate clearly, work with different teams, and solve problems under pressure. That experience has made me better on the technical side because IT is not just about systems. It is also about people.
-
-I am currently continuing my education in cybersecurity while building hands-on experience through work, labs, scripts, and personal projects.
-
----
-
-```zsh
-└─$ cat skills.json
-```
-
-### Infrastructure & Administration
-
-![Active Directory](https://img.shields.io/badge/Active%20Directory-0d1117?style=flat-square\&logoColor=58a6ff\&labelColor=161b22\&color=1f6feb)
-![Microsoft 365](https://img.shields.io/badge/Microsoft%20365-0d1117?style=flat-square\&logo=microsoftoffice\&logoColor=58a6ff\&labelColor=161b22\&color=1f6feb)
-![Azure AD](https://img.shields.io/badge/Azure%20AD-0d1117?style=flat-square\&logo=microsoftazure\&logoColor=58a6ff\&labelColor=161b22\&color=1f6feb)
-![Windows Server](https://img.shields.io/badge/Windows%20Server-0d1117?style=flat-square\&logo=windows\&logoColor=58a6ff\&labelColor=161b22\&color=1f6feb)
-
-### Networking
-
-![LAN/WAN](https://img.shields.io/badge/LAN%20%2F%20WAN-0d1117?style=flat-square\&logoColor=3fb950\&labelColor=161b22\&color=238636)
-![Firewalls](https://img.shields.io/badge/Firewalls-0d1117?style=flat-square\&logoColor=3fb950\&labelColor=161b22\&color=238636)
-![VPN](https://img.shields.io/badge/VPN-0d1117?style=flat-square\&logoColor=3fb950\&labelColor=161b22\&color=238636)
-![DHCP/DNS](https://img.shields.io/badge/DHCP%20%2F%20DNS-0d1117?style=flat-square\&logoColor=3fb950\&labelColor=161b22\&color=238636)
-![Network Troubleshooting](https://img.shields.io/badge/Network%20Troubleshooting-0d1117?style=flat-square\&logoColor=3fb950\&labelColor=161b22\&color=238636)
-
-### Security & Support
-
-![Network Security](https://img.shields.io/badge/Network%20Security-0d1117?style=flat-square\&logoColor=f78166\&labelColor=161b22\&color=b62324)
-![Security Audits](https://img.shields.io/badge/Security%20Audits-0d1117?style=flat-square\&logoColor=f78166\&labelColor=161b22\&color=b62324)
-![Patch Management](https://img.shields.io/badge/Patch%20Management-0d1117?style=flat-square\&logoColor=f78166\&labelColor=161b22\&color=b62324)
-![Tier 2/3 Support](https://img.shields.io/badge/Tier%202%2F3%20Support-0d1117?style=flat-square\&logoColor=e3b341\&labelColor=161b22\&color=9e6a03)
-
----
-
-```zsh
-└─$ ls -lt ./experience/
+└─$ cat what_i_work_on.txt
 ```
 
 ```txt
-drwxr-xr-x  synchronet/     # Network Administrator        | Jul 2025 – Current
-drwxr-xr-x  vitec/          # IT Technician                | Nov 2023 – Jun 2024
-drwxr-xr-x  niacom/         # MDU Specialist               | Jul 2022 – Mar 2023
-drwxr-xr-x  dsi-systems/    # Field Sales Representative   | May 2018 – Jul 2022
+Day-to-day: Active Directory, Microsoft 365, Entra, network
+troubleshooting, keeping business-critical systems from becoming
+someone else's problem.
+
+The stuff I actually think about at night: network security,
+automation, and building infrastructure that doesn't need
+constant babysitting.
 ```
 
 ---
@@ -81,27 +52,42 @@ drwxr-xr-x  dsi-systems/    # Field Sales Representative   | May 2018 – Jul 20
 ```
 
 ```txt
-homelab/              # Proxmox, networking, Linux servers, self-hosted services
-powershell-audits/    # Read-only AD, Microsoft 365, and security audit scripts
-cloudflare-sites/     # Personal websites and Cloudflare Worker projects
-network-docs/         # Notes, diagrams, troubleshooting, and infrastructure writeups
+homelab/            # Proxmox, VLANs, Linux servers, self-hosted services
+
+powershell-audits/  # Read-only AD, M365, and security audit scripts
+
+cloudflare-sites/   # Personal sites and Cloudflare Worker experiments
+
+network-docs/       # Notes, diagrams, and writeups from real troubleshooting
 ```
 
 ---
 
 ```zsh
-└─$ cat currently-learning.md
+└─$ cat skills.json | jq '.[]'
 ```
 
-```txt
-Cybersecurity fundamentals
-Network defense
-Microsoft 365 / Entra administration
-PowerShell automation
-Linux server administration
-Cloudflare Workers
-Homelab infrastructure
-```
+### Infrastructure & Administration
+
+![Active Directory](https://img.shields.io/badge/Active%20Directory-0d1117?style=flat-square&logoColor=58a6ff&labelColor=161b22&color=1f6feb)
+![Microsoft 365](https://img.shields.io/badge/Microsoft%20365-0d1117?style=flat-square&logo=microsoftoffice&logoColor=58a6ff&labelColor=161b22&color=1f6feb)
+![Entra ID](https://img.shields.io/badge/Entra%20ID-0d1117?style=flat-square&logo=microsoftazure&logoColor=58a6ff&labelColor=161b22&color=1f6feb)
+![Windows Server](https://img.shields.io/badge/Windows%20Server-0d1117?style=flat-square&logo=windows&logoColor=58a6ff&labelColor=161b22&color=1f6feb)
+
+### Networking
+
+![LAN/WAN](https://img.shields.io/badge/LAN%20%2F%20WAN-0d1117?style=flat-square&logoColor=3fb950&labelColor=161b22&color=238636)
+![DHCP/DNS](https://img.shields.io/badge/DHCP%20%2F%20DNS-0d1117?style=flat-square&logoColor=3fb950&labelColor=161b22&color=238636)
+![Firewalls](https://img.shields.io/badge/Firewalls-0d1117?style=flat-square&logoColor=3fb950&labelColor=161b22&color=238636)
+![VPN](https://img.shields.io/badge/VPN-0d1117?style=flat-square&logoColor=3fb950&labelColor=161b22&color=238636)
+![Network Troubleshooting](https://img.shields.io/badge/Network%20Troubleshooting-0d1117?style=flat-square&logoColor=3fb950&labelColor=161b22&color=238636)
+
+### Security & Automation
+
+![Network Security](https://img.shields.io/badge/Network%20Security-0d1117?style=flat-square&logoColor=f78166&labelColor=161b22&color=b62324)
+![Security Audits](https://img.shields.io/badge/Security%20Audits-0d1117?style=flat-square&logoColor=f78166&labelColor=161b22&color=b62324)
+![Patch Management](https://img.shields.io/badge/Patch%20Management-0d1117?style=flat-square&logoColor=f78166&labelColor=161b22&color=b62324)
+![PowerShell](https://img.shields.io/badge/PowerShell-0d1117?style=flat-square&logo=powershell&logoColor=e3b341&labelColor=161b22&color=9e6a03)
 
 ---
 
@@ -110,7 +96,6 @@ Homelab infrastructure
 ```
 
 ```bash
-# Let's connect
 echo "Website:"  https://zacharylalime.com
 echo "LinkedIn:" https://www.linkedin.com/in/zachary-lalime
 ```
@@ -120,6 +105,5 @@ echo "LinkedIn:" https://www.linkedin.com/in/zachary-lalime
 ```zsh
 └─$ █
 ```
-
 
 
