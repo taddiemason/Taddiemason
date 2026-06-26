@@ -12,11 +12,6 @@
 ```
 
 ```txt
-Before IT, I spent four years in field sales — knocking on doors,
-reading rooms, explaining things fast to people who had better things
-to do. Not exactly a tech origin story, but it made me better at
-this job than I expected.
-
 I'm a network administrator at Synchronet in Buffalo, working across
 Microsoft 365 tenants, Entra ID, Conditional Access policy management,
 and network infrastructure for MSP clients with real stakes.
