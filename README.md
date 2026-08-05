@@ -2,8 +2,6 @@
 
 Network admin in Buffalo, NY, currently working toward a B.S. in Cybersecurity. By day I'm knee-deep in Microsoft 365 tenants, Entra ID, and Conditional Access policies for MSP clients. By night (and most weekends, if I'm honest) I'm building small tools that make the tools I use every day less annoying.
 
-I got into this because I like the moment something that used to take 20 manual clicks turns into one command — and I like it even more when it catches something a human would've missed.
-
 ---
 
 ### Things I've built
