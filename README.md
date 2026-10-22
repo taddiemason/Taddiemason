@@ -1,10 +1,10 @@
 ## Hi, I'm Zach 👋
 
-Network administrator in Buffalo, NY, working toward a B.S. in Cybersecurity.
+I'm a network administrator in Buffalo, NY, working toward my B.S. in Cybersecurity.
 
-By day I live in MSP client environments — Microsoft 365 and Entra ID tenants, Active Directory, Sophos and OPNsense firewalls, VMware/Proxmox hosts, Cove backups, and UniFi wireless. By night I turn the tedious parts of that job into PowerShell, MCP servers, and self-hosted infrastructure.
+I work in the MSP world, handling everything from Microsoft 365 and Active Directory to firewalls, virtualization, backups, and wireless networks.
 
-Rule of thumb: if I have to check the same thing by hand twice, it becomes a repo.
+Outside of work, I spend a lot of time in my homelab, building PowerShell scripts, experimenting with MCP servers, and running self-hosted services. Most of my projects start with something I wanted to fix, understand better, or stop doing manually.
 
 ---
 
@@ -103,8 +103,7 @@ A two-node Proxmox cluster (~21 guests) plus a TrueNAS box, fronted by a UniFi C
 
 ### Currently studying
 
-Cryptography (block ciphers through public-key and Diffie–Hellman), network management (SNMP, ASN.1/BER, MIBs and SMI), CCNA-level networking, and the usual pile of Linux and application-security reading. Notes go into an Obsidian vault that cross-links coursework to the homelab builds and work procedures that use it.
-
+Cryptography (block ciphers through public-key and Diffie–Hellman), network management (SNMP, ASN.1/BER, MIBs and SMI), CCNA-level networking, and the usual pile of Linux and application-security reading.
 ---
 
 ### Elsewhere
